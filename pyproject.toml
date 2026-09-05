@@ -28,9 +28,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ngurahindrapurnayasa/indo-text-preprocessing"
-Repository = "https://github.com/ngurahindrapurnayasa/indo-text-preprocessing"
-Issues = "https://github.com/ngurahindrapurnayasa/indo-text-preprocessing/issues"
+Homepage = "https://github.com/indrapurnayasa/indo-text-preprocessing"
+Repository = "https://github.com/indrapurnayasa/indo-text-preprocessing"
+Issues = "https://github.com/indrapurnayasa/indo-text-preprocessing/issues"
 
 [project.optional-dependencies]
 dev = ["pytest"]

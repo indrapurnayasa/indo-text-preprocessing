@@ -115,7 +115,7 @@ Algoritma stemming merujuk: Nazief & Adriani (1996), Asian (2007), Purnomo & Pur
 ## Development
 
 ```bash
-git clone https://github.com/ngurahindrapurnayasa/indo-text-preprocessing
+git clone https://github.com/indrapurnayasa/indo-text-preprocessing
 cd indo-text-preprocessing
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]" && pytest
