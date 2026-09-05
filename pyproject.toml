@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "indo-text-preprocessing"
+version = "0.1.0"
+description = "Preprocessing NLP Bahasa Indonesia: cleaning, stopwords, slang, stemming, lemmatization, vectorizer. From scratch, zero heavy dependencies."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Ngurah Indra Purnayasa" }]
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+keywords = ["nlp", "indonesian", "preprocessing", "stemmer", "stopwords", "slang", "tfidf", "vectorizer"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Indonesian",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.urls]
+Homepage = "https://github.com/ngurahindrapurnayasa/indo-text-preprocessing"
+Repository = "https://github.com/ngurahindrapurnayasa/indo-text-preprocessing"
+Issues = "https://github.com/ngurahindrapurnayasa/indo-text-preprocessing/issues"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/indo_text_preprocessing"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
