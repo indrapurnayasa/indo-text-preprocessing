@@ -1,5 +1,7 @@
 """Pipeline: rangkai semua langkah preprocessing."""
 
+from __future__ import annotations
+
 import numpy as np
 
 from .clean import clean_all

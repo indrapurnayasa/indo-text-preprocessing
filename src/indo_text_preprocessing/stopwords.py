@@ -1,5 +1,7 @@
 """Penghapusan stopwords Bahasa Indonesia."""
 
+from __future__ import annotations
+
 from ._data import load_words
 
 _STOPWORDS = load_words("stopwords_id.txt")

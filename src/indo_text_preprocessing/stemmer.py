@@ -20,6 +20,8 @@ Referensi:
 - PySastrawi (har07, MIT) — referensi implementasi aturan disambiguator.
 """
 
+from __future__ import annotations
+
 import re
 
 from ._data import load_words

@@ -1,5 +1,7 @@
 """Pembersihan teks: lowercase, URL, emoji, angka, tanda baca, whitespace."""
 
+from __future__ import annotations
+
 import re
 
 _URL_RE = re.compile(r"https?://\S+|www\.\S+")

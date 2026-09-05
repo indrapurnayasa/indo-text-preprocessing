@@ -1,5 +1,7 @@
 """Loader corpus internal package (dibundel di data/)."""
 
+from __future__ import annotations
+
 from importlib import resources
 import json
 from functools import lru_cache

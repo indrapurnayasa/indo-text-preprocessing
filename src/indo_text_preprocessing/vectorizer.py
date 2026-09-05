@@ -9,6 +9,8 @@ Formula mengikuti sklearn:
 # tokenizer (ngram, regex) bila corpus > 100k docs atau butuh ngram.
 """
 
+from __future__ import annotations
+
 import math
 import re
 

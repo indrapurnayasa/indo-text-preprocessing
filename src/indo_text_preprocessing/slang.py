@@ -1,5 +1,7 @@
 """Penggantian kata slang/colloquial ke bentuk formal."""
 
+from __future__ import annotations
+
 from ._data import load_json
 
 _SLANG = load_json("slang_id.json")

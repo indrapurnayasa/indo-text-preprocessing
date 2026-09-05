@@ -8,6 +8,8 @@ salah tangani secara semantik.
 # lemmatizer (spaCy id_core_news_sm) bila akurasi konteks jadi kebutuhan.
 """
 
+from __future__ import annotations
+
 from .stemmer import stem as _stem, stem_batch as _stem_batch
 from importlib import resources
 import json

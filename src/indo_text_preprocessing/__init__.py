@@ -1,5 +1,7 @@
 """Public API indo_text_preprocessing."""
 
+from __future__ import annotations
+
 from .clean import (
     clean_all,
     lowercase,
